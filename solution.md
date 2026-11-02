@@ -1,15 +1,94 @@
-Part 1: Explanatory Paragraph
-When you type a URL into your web browser (the client), it triggers a request-response cycle by sending an HTTP (Hypertext Transfer Protocol) or securely encrypted HTTPS request across the internet to the server where the website lives. For a static website, the server simply responds by sending pre-written HTML, CSS, and JavaScript files directly back to the client. However, if it is a dynamic website, the server first communicates with a database to retrieve specific, up-to-date data (like user profiles or live feeds) and builds the webpage on the fly before sending the final code back. Once the browser receives this response, it translates the code into the visual website that opens on your screen.
+Step 1: Sample HTML File
+First, let's create a sample HTML file that contains some common errors like missing closing tags, incorrect nesting, and missing attributes.
 
-Part 2: How to get your Screenshot
-To fulfill the second part of your assignment, you'll need to take a screenshot of the Network tab on your own computer. Here is exactly how to do it:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph with <b>bold</b> text and <em>italic</em> text.
+  <img src="image.jpg" alt="Sample Image" />
+  <ul>
+    <li>Item 1
+    <li>Item 2
+  </ul>
+</body>
+</html>
+Step 2: Identify the Errors
+Let's identify the errors in the sample HTML file:
 
-Open Google Chrome and go to any website (e.g., wikipedia.org).
+Missing closing </p> tag.
+Incorrect nesting of li tags.
+Missing </ul> closing tag.
+Missing </body> and </html> closing tags.
+Step 3: Inspect Using the Elements Panel in Browser DevTools
+Open the HTML file in a web browser (like Chrome, Firefox, or Edge) and use the DevTools to inspect the structure. Here are the steps:
 
-Right-click anywhere on the page and select Inspect (or press Ctrl + Shift + I on Windows / Cmd + Option + I on Mac).
+Open the HTML file in your web browser.
+Right-click anywhere on the page and select "Inspect" or use Ctrl+Shift+I (Windows/Linux) or Cmd+Opt+I (Mac) to open the Developer Tools.
+Go to the "Elements" tab. You should see the HTML structure of the page.
+Step 4: Check the Markup Using an HTML Validation Tool
+You can use online tools like the W3C Markup Validation Service to check the HTML code. Here’s how:
 
-In the panel that opens, click on the Network tab at the top. (If you don't see it, click the >> arrows to reveal hidden tabs).
+Copy the HTML code.
+Go to the W3C Markup Validation Service: https://validator.w3.org/
+Paste the HTML code into the text box and click "Check".
+The tool will highlight the errors and provide suggestions.
+Step 5: Fix All Errors and Properly Indent the Code
+Now, let's fix the errors and properly indent the code:
 
-With the Network tab open, refresh the page (F5 or Ctrl + R). You will see a waterfall of files (requests) loading in the panel.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph with <b>bold</b> text and <em>italic</em> text.</p>
+  <img src="image.jpg" alt="Sample Image" />
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+</body>
+</html>
+Step 6: Submission
+Before-and-after code and a screenshot of the fixed webpage:
 
-Take a screenshot of this entire window showing the list of network requests and save it to submit with your paragraph.
+Before Code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph with <b>bold</b> text and <em>italic</em> text.
+  <img src="image.jpg" alt="Sample Image" />
+  <ul>
+    <li>Item 1
+    <li>Item 2
+  </ul>
+</body>
+</html>
+After Code:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph with <b>bold</b> text and <em>italic</em> text.</p>
+  <img src="image.jpg" alt="Sample Image" />
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+</body>
+</html>
+Screenshot of the Fixed Webpage: Open the fixed HTML file in a web browser and take a screenshot of the rendered page.
