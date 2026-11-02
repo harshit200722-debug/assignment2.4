@@ -1,11 +1,11 @@
-name=Assignment-1.1.md
-Assignment 1.1 — How a Website Works[cite: 1]
-Task: Explain in a single paragraph how a website opens on the screen after typing a URL.[cite: 1]
+name=Assignment-2.4.md
+Assignment 2.4 — HTML Validation & Debugging[cite: 9]
+Task: Debug a intentionally buggy HTML file.[cite: 9]
 What to do:
 
-1. Understand the basic roles of browser, client, server, and database.[cite: 1]
-2. Write the meanings of HTTP and HTTPS.[cite: 1]
-3. Explain the request-response cycle.[cite: 1]
-4. Write the differences between a static and a dynamic website.[cite: 1]
-5. Open Chrome DevTools and inspect requests in the Network tab of any website.[cite: 1]
-Submission: An explanatory paragraph and a screenshot of the Network tab.[cite: 1]
+1. Take a sample HTML file containing missing closing tags, incorrect nesting, and missing attributes.[cite: 9]
+2. Identify the errors.[cite: 9]
+3. Inspect using the Elements panel in browser DevTools.[cite: 9]
+4. Check the markup using an HTML validation tool.[cite: 9]
+5. Fix all errors and properly indent the code.[cite: 9]
+Submission: Before-and-after code and a screenshot of the fixed webpage.[cite: 9]
